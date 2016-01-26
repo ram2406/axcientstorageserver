@@ -33,6 +33,9 @@ namespace axcient {
 		}
 		static Storage create() {
 			Storage s;
+			if(!IStorage::Block_size() || !IStorage::Blob_size()) {
+				throw std::invalid_argument("need axcient::api::init before it");
+			}
 			s.Init(IStorage::Block_size(), IStorage::Blob_size());
 			return s;
 		}

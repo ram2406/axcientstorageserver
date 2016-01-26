@@ -1,0 +1,10 @@
+syntax: glob
+*.obj
+*.tlog
+*.opensdf
+*.sdf
+*/Release/*
+*/Debug/*
+*.db
+*/storage/*
+Release/*

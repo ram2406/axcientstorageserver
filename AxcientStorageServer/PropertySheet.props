@@ -5,7 +5,7 @@
     <POCO>M:\poco-1.6.1-all</POCO>
   </PropertyGroup>
   <PropertyGroup>
-    <IncludePath>$(POCO)/Data/SQLite/include;$(POCO)/Util/include;$(POCO)/Data/include;$(POCO)/Foundation/include;$(SolutionDir);$(IncludePath)</IncludePath>
+    <IncludePath>$(POCO)/Data/SQLite/include;$(POCO)/Util/include;$(POCO)/Net/include;$(POCO)/Data/include;$(POCO)/Foundation/include;$(SolutionDir);$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <Link>

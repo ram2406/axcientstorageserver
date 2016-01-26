@@ -30,7 +30,7 @@ void checkData(axcient::byte bytes1[], axcient::byte bytes2[]) {
 }
 
 
-int main(int argc, char* argv[]) {
+int main1(int argc, char* argv[]) {
 	axcient::byte bytes [bz] = { 0 };
 	axcient::api::init(bz, 10);
 	axcient::api::put_block(1,	test1);
@@ -60,4 +60,5 @@ int main(int argc, char* argv[]) {
 	checkData(bytes, test8);
 
 	std::system("pause");
+	return 0;
 }
